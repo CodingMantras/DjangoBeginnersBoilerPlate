@@ -21,7 +21,11 @@ class Album(models.Model):
 
 
 class ImageFile(models.Model):
-    album = models.ForeignKey()
+    album = models.ForeignKey(Album,
+                              on_delete=models.CASCADE,
+                              related_name='images',
+                              null=True,
+                              )
     image = models.ImageField(upload_to="images")
 
     @property

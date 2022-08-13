@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/{{ docs_version }}/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/{{ docs_version }}/ref/settings/
 """
-import os
 from pathlib import Path
 import sys
 import json
@@ -61,7 +60,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     #### Project Apps ####
-    'artist',
+    'artists',
 
 
     #### Third Party Apps #####

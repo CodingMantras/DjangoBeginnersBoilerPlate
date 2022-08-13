@@ -6,6 +6,6 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import ImageFile
 
 
-class ImageUploadView(LoginRequiredMixin, CreateView):
+class ImageUploadView(CreateView):
     model = ImageFile
     fields = ["image"]
