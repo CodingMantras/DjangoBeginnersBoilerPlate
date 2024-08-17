@@ -28,16 +28,19 @@
 </head>
 <body class="{% block body_class %}{% endblock %}">
   {% include 'partials/_nav.html' %}
-{% block leftbar %}
-    {# Leftbar on the Page #}
-{% endblock %}
-{% block content %}
-    {# Page content will go here #}
-{% endblock %}
-
-{# Modal HTML #}
-{% block modals %}
-{% endblock %}
+  <div class="fluid-container">
+    <div class="row">
+      {% block leftbar %}
+          {# Leftbar on the Page #}
+      {% endblock %}
+      {% block content %}
+          {# Page content will go here #}
+      {% endblock %}
+    </div>
+    {# Modal HTML #}
+    {% block modals %}
+    {% endblock %}
+  </div>
 
 {# Vendor javascript #}
 {% block vendor_js %}
