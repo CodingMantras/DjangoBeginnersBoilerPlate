@@ -22,7 +22,6 @@ A Simple beginner Django Web Application Boiler Plate
 ## Requirements
 ```bash
 asgiref==3.5.2
-backports.zoneinfo==0.2.1
 Django==4.0.6
 django-crispy-forms==1.14.0
 Pillow==9.2.0
