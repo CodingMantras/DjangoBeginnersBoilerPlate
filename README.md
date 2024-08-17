@@ -5,7 +5,7 @@ A Simple beginner Django Web Application Boiler Plate
 ## What's included
 
 1. app folder 
-    - to keep all the apps at one place.
+    - to keep all the apps at one place. With a sample app `artists`.
 
 2. requirements folder
     Separate for base, development, production & testing
@@ -18,13 +18,16 @@ A Simple beginner Django Web Application Boiler Plate
 
 5. django-crispy-forms
 
+6. Bootstrap-css configuration in `base.html`
+
 
 ## Requirements
 ```bash
-asgiref==3.5.2
-Django==4.0.6
-django-crispy-forms==1.14.0
-Pillow==9.2.0
-sqlparse==0.4.2
-tzdata==2022.1
+asgiref==3.8.1
+Django==5.0.7
+django-crispy-forms==2.3
+crispy-bootstrap5==2024.2
+Pillow==10.4.0
+sqlparse==0.5.1
+tzdata==2024.1
 ```
