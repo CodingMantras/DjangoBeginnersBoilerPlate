@@ -2,6 +2,15 @@
 
 A Simple beginner Django Web Application Boiler Plate
 
+## Home page
+
+<img src="static/imgs/myDjangoSite_HomePage.png" >
+
+- With Bootstrap offcanvas navbar
+
+<img src="static/imgs/myDjangoSite_OffCanvas_nav.png" >
+
+
 ## What's included
 
 1. app folder 
